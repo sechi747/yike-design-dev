@@ -37,6 +37,10 @@ const generalRoutes: Array<RouteRecordRaw> = [
     path: 'empty',
     component: () => import('@/examples/empty/doc.md'),
   },
+  {
+    path: 'switch',
+    component: () => import('@/examples/switch/doc.md'),
+  },
 ];
 
 export default generalRoutes;
