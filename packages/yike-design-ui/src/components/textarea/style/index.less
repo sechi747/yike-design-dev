@@ -1,0 +1,36 @@
+.yk-textarea {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: bottom;
+  &__inner {
+    position: relative;
+    display: block;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid @bg-color-s;
+    border-radius: @radius-m;
+    color: @font-color-l;
+    background-color: @bg-color-s;
+    outline: none;
+    resize: vertical;
+    transition: 0.2s ease-in-out;
+    transition-property: border, background;
+    line-height: 20px;
+    box-sizing: border-box;
+    background-image: none;
+
+    &:hover {
+      border-color: @pcolor;
+      background: @bg-color-m;
+    }
+
+    &:focus {
+      border-color: @pcolor;
+      background: @bg-color-l;
+      outline: 2px solid @pcolor-1;
+    }
+  }
+}

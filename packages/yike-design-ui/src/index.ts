@@ -10,6 +10,7 @@ import { YkDrawer } from './components/drawer';
 import YkBadge from './components/badge';
 import YkScrollbar from './components/scrollbar';
 import YkRate from './components/rate';
+import YkTextarea from './components/textarea';
 import YkAlert from './components/alert';
 import YkButton from './components/button';
 import YkTheme from './components/theme';
@@ -41,6 +42,7 @@ const components: {
   YkBadge,
   YkScrollbar,
   YkRate,
+  YkTextarea,
   YkAlert,
   YkButton,
   YkTheme,
@@ -71,6 +73,7 @@ export {
   YkDrawer,
   YkScrollbar,
   YkRate,
+  YkTextarea,
   YkAlert,
   YkButton,
   YkTheme,

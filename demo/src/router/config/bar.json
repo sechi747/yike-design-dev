@@ -64,6 +64,10 @@
         {
           "name": "Switch 开关",
           "src": "switch"
+        },
+        {
+          "name": "Textarea 文本域",
+          "src": "textarea"
         }
       ]
     },
